@@ -55,7 +55,14 @@ export const rulebasedController = async (req: Request, res: Response) => {
       reply:
         "The mission of MUT is 'To advance knowledge and technological transfer through teaching, training, research, and innovation for sustainable development.'",
     });
-  } else {
+  } else if( user_input.includes("duration") || user_input.includes("how long") || user_input.includes("time")){
+    return res.json({
+      reply: 
+      "Degree courses at MUT take 4 years to complite with exception in Engineering science wich take 5 years."
+    })
+  }
+  
+  else {
     return res.json({
       reply:
         "Sorry, I’m not sure about that. Please ask about courses, fees, admissions, or location.",
