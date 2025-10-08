@@ -14,15 +14,25 @@ This project demonstrates how simple AI logic can power a rule-based yet intelli
 🎯 Features
 
 ✅ Responds intelligently to user questions about MUT (e.g., courses, fees, location).
+
 ✅ Handles greetings naturally.
+
 ✅ Uses TF-IDF vectorization and cosine similarity for response matching.
+
 ✅ Built entirely in TypeScript (with a focus on clean, modular design).
+
 ✅ Easily extensible — just add more data to the knowledge base.
 
 🏗️ Tech Stack
+
 Component	Technology
+
 Language	TypeScript
+
 Runtime	Node.js
+
 NLP Library	Custom / TF-IDF Concept
+
 Similarity	Cosine Similarity
+
 Data	Static knowledge base (expandable)
